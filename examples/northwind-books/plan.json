@@ -1,0 +1,31 @@
+{
+  "source": {"title": "How our clients close the month in 3 days instead of 9", "path": "source.md"},
+  "core_insight": "A slow month-end close is a pile of small daily habits, so four habits and no software cut it from 9 days to 3.",
+  "wide": true,
+  "wide_reason": "The user asked for a thread, a Telegram post, a carousel and a video script from this one article.",
+  "atoms": [
+    {"id": "a1", "kind": "data", "text": "14 small-shop clients went from a 9-day close to a 3-day close without hiring.",
+     "evidence": "Today the same 14 clients close in 3 working days. Nobody hired anyone."},
+    {"id": "a2", "kind": "framework", "text": "Four habits: daily 10-minute reconciliation, one receipts inbox, a fixed 3-day calendar, a one-page report plus a 15-minute call.",
+     "evidence": "We changed four habits, and none of them is software."},
+    {"id": "a3", "kind": "tutorial", "text": "The 10-minute daily bank match, with a one-line note for anything that does not match.",
+     "evidence": "Our clients now open the bank feed every morning and match yesterday's lines."},
+    {"id": "a4", "kind": "contrarian", "text": "Close on a calendar even when something is missing; a late small correction is cheaper than a late report.",
+     "evidence": "A late correction of a small amount is cheaper than a late report."},
+    {"id": "a5", "kind": "data", "text": "One receipts inbox took missing receipts from about 30 a month to under 5 by month two.",
+     "evidence": "missing receipts drop from about 30 a month to under 5"},
+    {"id": "a6", "kind": "story", "text": "Two clients still have a cash problem; they just see it 6 days earlier, and that is the point.",
+     "evidence": "Two of the 14 clients still have a cash problem; they just see it 6 days earlier."}
+  ],
+  "platforms": [
+    {"platform": "x", "treatment": "native-deep", "format": "thread", "atoms": ["a1", "a2", "a4"],
+     "hook_type": "outcome-first", "why": "the four habits sequence cleanly and each post stands alone"},
+    {"platform": "telegram", "treatment": "native-deep", "format": "long-post", "atoms": ["a1", "a2", "a5", "a6"],
+     "hook_type": "story-open", "why": "warm readers get the full version, including what it did not fix"},
+    {"platform": "instagram", "treatment": "native-deep", "format": "carousel", "atoms": ["a2", "a3"],
+     "hook_type": "barrier-removal", "why": "a numbered set of habits is a save-and-come-back asset"},
+    {"platform": "tiktok", "treatment": "native-light", "format": "video-script", "atoms": ["a3"],
+     "hook_type": "anti-pattern", "why": "one habit, shown in under 45 seconds"},
+    {"platform": "linkedin", "treatment": "skip", "why": "not an active account for this business"}
+  ]
+}

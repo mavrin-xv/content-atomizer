@@ -1,0 +1,16 @@
+{
+  "framework": "hack-list",
+  "platform": "instagram",
+  "theme": "editorial",
+  "footer": "Northwind Books",
+  "slides": [
+    {"role": "hook", "title": "Close the month in **3 days**, not 9", "sub": "Four habits from 14 small shops. No software."},
+    {"role": "problem", "title": "Why month end takes 9 days", "body": "Every refund, double charge and deposit with no note becomes 20 minutes of detective work, because nobody remembers it a month later."},
+    {"role": "hack", "title": "1. Reconcile every morning", "bad": "One big match at month end", "good": "10 minutes with the bank feed, a one-line note for anything odd"},
+    {"role": "hack", "title": "2. One receipts inbox", "bad": "Shoebox, phone, supplier portal and email", "good": "One address for receipts only. Not in by Friday, it does not exist"},
+    {"role": "hack", "title": "3. Close on a calendar", "bad": "We close when everything is in", "good": "Day 1 bank, day 2 bills, day 3 report. Missing items get a note"},
+    {"role": "hack", "title": "4. One page, one call", "bad": "A 12-page export nobody opens", "good": "Cash, what changed, what needs a decision. Then a 15-minute call"},
+    {"role": "close", "title": "It shows the problem sooner", "body": "Two of the 14 shops still have a cash problem. They see it 6 days earlier, which is the only way to fix it."},
+    {"role": "cta", "title": "Start with the 10 minutes", "body": "Save this for the last week of the month and try the morning match for two weeks."}
+  ]
+}

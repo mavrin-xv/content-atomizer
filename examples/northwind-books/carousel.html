@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Close the month in **3 days**, not 9</title><style>:root{--bg:#fbfaf7;--fg:#151515;--muted:#66625b;--accent:#c2410c;--line:#e7e2d8;--head:Georgia, 'Times New Roman', serif;--body:Inter, 'Helvetica Neue', Arial, sans-serif;--w:1080px;--h:1350px;--zoom:0.4}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#777;font-family:var(--body);padding:24px;display:flex;flex-direction:column;align-items:center;gap:24px}
+body.print{background:var(--bg);padding:0;gap:0}
+.slide{width:var(--w);height:var(--h);background:var(--bg);color:var(--fg);position:relative;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:120px 80px 140px}
+body:not(.print) .slide{zoom:var(--zoom)}
+.kicker{font:700 40px var(--body);color:var(--accent);letter-spacing:.04em;margin-bottom:28px}
+h1,h2{font-family:var(--head);font-weight:800;line-height:1.05;text-wrap:balance;max-width:920px}
+h1{font-size:104px}
+h2{font-size:92px;margin-bottom:36px}
+.sub{font-size:44px;color:var(--muted);margin-top:36px;max-width:900px;text-wrap:balance;line-height:1.25}
+.body{font-size:44px;line-height:1.3;max-width:900px;text-wrap:pretty}
+ul{list-style:none;font-size:42px;line-height:1.3;max-width:900px;text-align:left;margin-top:12px}
+li{padding:14px 0;border-bottom:3px solid var(--line)}
+li:last-child{border-bottom:0}
+li::before{content:"\2192\00a0";color:var(--accent);font-weight:700}
+.pair{width:100%;max-width:900px;text-align:left;font-size:40px;line-height:1.3}
+.pair p{padding:22px 0}
+.pair b{display:block;font-size:30px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px}
+.pair .bad b{color:var(--muted)}
+.pair .good b{color:var(--accent)}
+.pair .bad{border-bottom:3px solid var(--line);color:var(--muted)}
+img{max-width:900px;max-height:620px;border-radius:18px;margin-top:28px;object-fit:contain}
+.hl{color:var(--accent);white-space:nowrap}
+.foot{position:absolute;left:80px;right:80px;bottom:56px;display:flex;justify-content:space-between;
+  font:500 30px var(--body);color:var(--muted)}
+.swipe{position:absolute;right:80px;bottom:110px;font:700 32px var(--body);color:var(--accent)}
+.cta h2{color:var(--accent)}
+</style></head><body class=""><section class="slide hook"><h1>Close the month in <span class="hl">3 days</span>, not 9</h1><p class="sub">Four habits from 14 small shops. No software.</p><div class="swipe">Swipe →</div><div class="foot"><span>Northwind Books</span><span>1/8</span></div></section><section class="slide problem"><h2>Why month end takes 9 days</h2><p class="body">Every refund, double charge and deposit with no note becomes 20 minutes of detective work, because nobody remembers it a month later.</p><div class="foot"><span>Northwind Books</span><span>2/8</span></div></section><section class="slide hack"><h2>1. Reconcile every morning</h2><div class="pair"><p class="bad"><b>Instead of</b>One big match at month end</p><p class="good"><b>Do this</b>10 minutes with the bank feed, a one-line note for anything odd</p></div><div class="foot"><span>Northwind Books</span><span>3/8</span></div></section><section class="slide hack"><h2>2. One receipts inbox</h2><div class="pair"><p class="bad"><b>Instead of</b>Shoebox, phone, supplier portal and email</p><p class="good"><b>Do this</b>One address for receipts only. Not in by Friday, it does not exist</p></div><div class="foot"><span>Northwind Books</span><span>4/8</span></div></section><section class="slide hack"><h2>3. Close on a calendar</h2><div class="pair"><p class="bad"><b>Instead of</b>We close when everything is in</p><p class="good"><b>Do this</b>Day 1 bank, day 2 bills, day 3 report. Missing items get a note</p></div><div class="foot"><span>Northwind Books</span><span>5/8</span></div></section><section class="slide hack"><h2>4. One page, one call</h2><div class="pair"><p class="bad"><b>Instead of</b>A 12-page export nobody opens</p><p class="good"><b>Do this</b>Cash, what changed, what needs a decision. Then a 15-minute call</p></div><div class="foot"><span>Northwind Books</span><span>6/8</span></div></section><section class="slide close"><h2>It shows the problem sooner</h2><p class="body">Two of the 14 shops still have a cash problem. They see it 6 days earlier, which is the only way to fix it.</p><div class="foot"><span>Northwind Books</span><span>7/8</span></div></section><section class="slide cta"><h2>Start with the 10 minutes</h2><p class="body">Save this for the last week of the month and try the morning match for two weeks.</p><div class="foot"><span>Northwind Books</span><span>8/8</span></div></section><script>
+document.querySelectorAll('.slide').forEach(function(s){
+  var t=s.querySelector('h1,h2'); if(!t) return;
+  var size=parseFloat(getComputedStyle(t).fontSize), min=72;
+  while(s.scrollHeight>s.clientHeight && size>min){size-=4; t.style.fontSize=size+'px';}
+});
+</script></body></html>

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+atoms/
+png/
+*.pdf
+.DS_Store

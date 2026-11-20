@@ -1,0 +1,33 @@
+{
+  "source": {
+    "title": "How we close the books in 3 days",
+    "path": "source.md"
+  },
+  "core_insight": "One sentence a reader would repeat to a colleague.",
+  "wide": false,
+  "atoms": [
+    {
+      "id": "a1",
+      "kind": "data",
+      "text": "What the atom says, in your words",
+      "evidence": "a short exact quote from the source"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": "x",
+      "treatment": "native-light",
+      "format": "post",
+      "atoms": [
+        "a1"
+      ],
+      "hook_type": "outcome-first",
+      "why": "the number stands alone"
+    },
+    {
+      "platform": "instagram",
+      "treatment": "skip",
+      "why": "account not active"
+    }
+  ]
+}

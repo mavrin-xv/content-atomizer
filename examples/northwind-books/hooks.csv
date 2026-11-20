@@ -1,0 +1,7 @@
+date,source,platform,hook_type,hook,pattern,why,metric,value
+2026-10-02,own post,x,time-transformation,14 small shops used to close their books 9 days after month end.,[N] [WHO] used to [PAIN] [TIME] late,number plus a before state,replies,11
+2026-10-09,own post,x,time-transformation,6 shops used to wait 12 days for last month's numbers.,[N] [WHO] used to [PAIN] [TIME] late,same before-state frame,replies,9
+2026-10-16,own post,x,time-transformation,3 bakeries used to pay suppliers 20 days late.,[N] [WHO] used to [PAIN] [TIME] late,"same frame, sharper cost",replies,14
+2026-10-20,saved from feed,linkedin,anti-pattern,Stop doing your books at month end.,Stop doing your books at month end.,"short imperative, names the habit",,
+2026-10-23,own post,instagram,time-transformation,Close the month in 3 days without new software,Close the month in [TIME] without new software,barrier removal in the title,saves_per_1k,22
+2026-10-30,saved from feed,x,,Here's what I learned about bookkeeping tips,Here's what I learned about bookkeeping tips,anti-example: bait plus vague,,

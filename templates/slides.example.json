@@ -1,0 +1,40 @@
+{
+  "framework": "value-stack",
+  "platform": "instagram",
+  "theme": "dark",
+  "footer": "Your Name",
+  "slides": [
+    {
+      "role": "hook",
+      "title": "How to [outcome] in [time] without [pain]",
+      "sub": "One line that says who it is for"
+    },
+    {
+      "role": "define",
+      "title": "What [the thing] is",
+      "body": "One or two plain sentences."
+    },
+    {
+      "role": "point",
+      "kicker": "01",
+      "title": "First point",
+      "body": "Why it matters, one example."
+    },
+    {
+      "role": "point",
+      "kicker": "02",
+      "title": "Second point",
+      "body": "Why it matters, one example."
+    },
+    {
+      "role": "close",
+      "title": "The one line to remember",
+      "body": "The idea in a sentence."
+    },
+    {
+      "role": "cta",
+      "title": "Save this for your next [moment]",
+      "body": "Comment WORD and I will send you [exact deliverable]."
+    }
+  ]
+}
